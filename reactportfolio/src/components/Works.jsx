@@ -1,5 +1,4 @@
 import React from 'react';
-import code from '../assets/code2.png';
 
 const Works = () => {
   return (
@@ -15,15 +14,60 @@ const Works = () => {
         <div className='grid sm:grid-cols-2 md:grid-cols-3 gap-4'>
             {/* Grid Item */}
           <div
-            style={{ backgroundImage: `url(${code})` }}
             className='shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div'
           >
             {/* Hover Effects */}
-            <div className='opacity-0 group-hover:opacity-100 flex justify-center items-center flex-col'>
+            <div className='opacity-60 group-hover:opacity-100 flex justify-center items-center flex-col'>
               <span className=' text-lg font-bold text-white tracking-wider'>
-                CBT Application
+                Calculator
               </span>
-              <p className='text-center'>A CBT web application built with React and Mongodb</p>
+              <p className='text-center'>A Calculator web application built with React</p>
+              <div className='pt-8 text-center'>
+                <a href='https://calculatereact.netlify.app/'>
+                  <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg'>
+                    Demo
+                  </button>
+                </a>
+                <a href='https://github.com/websitedsigns/Calculator-App.git'>
+                  <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg'>
+                    Code
+                  </button>
+                </a>
+              </div>
+            </div>
+          </div>
+          <div
+            className='shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div'
+          >
+            {/* Hover Effects */}
+            <div className='opacity-60 group-hover:opacity-100 flex justify-center items-center flex-col'>
+              <span className=' text-lg font-bold text-white tracking-wider'>
+                Restaurant Booking App
+              </span>
+              <p className='text-center'>Restaurant Booking Application, built with React</p>
+              <div className='pt-8 text-center'>
+                <a href='https://littlelemonlondon.netlify.app/'>
+                  <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg'>
+                    Demo
+                  </button>
+                </a>
+                <a href='https://github.com/websitedsigns/Little-Lemon-Restaurant.git'>
+                  <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg'>
+                    Code
+                  </button>
+                </a>
+              </div>
+            </div>
+          </div>
+          <div
+            className='shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div'
+          >
+            {/* Hover Effects */}
+            <div className='opacity-60 group-hover:opacity-100 flex justify-center items-center flex-col'>
+              <span className=' text-lg font-bold text-white tracking-wider'>
+                Weather Forecast
+              </span>
+              <p className='text-center'>An Interactive Weather App, using React</p>
               <div className='pt-8 text-center'>
                 <a href='/'>
                   <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg'>
@@ -39,15 +83,14 @@ const Works = () => {
             </div>
           </div>
           <div
-            style={{ backgroundImage: `url(${code})` }}
             className='shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div'
           >
             {/* Hover Effects */}
-            <div className='opacity-0 group-hover:opacity-100 flex justify-center items-center flex-col'>
+            <div className='opacity-60 group-hover:opacity-100 flex justify-center items-center flex-col'>
               <span className=' text-lg font-bold text-white tracking-wider'>
-                CBT Application
+                Roller Coaster Counter 
               </span>
-              <p className='text-center'>A CBT web application built with React and Mongodb</p>
+              <p className='text-center'>A Roller Coaster Counting Application using React and Mongodb</p>
               <div className='pt-8 text-center'>
                 <a href='/'>
                   <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg'>
@@ -63,15 +106,14 @@ const Works = () => {
             </div>
           </div>
           <div
-            style={{ backgroundImage: `url(${code})` }}
             className='shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div'
           >
             {/* Hover Effects */}
-            <div className='opacity-0 group-hover:opacity-100 flex justify-center items-center flex-col'>
+            <div className='opacity-60 group-hover:opacity-100 flex justify-center items-center flex-col'>
               <span className=' text-lg font-bold text-white tracking-wider'>
-                CBT Application
+                Task Manager
               </span>
-              <p className='text-center'>A CBT web application built with React and Mongodb</p>
+              <p className='text-center'>An Interactive ToDo List application built with React</p>
               <div className='pt-8 text-center'>
                 <a href='/'>
                   <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg'>
@@ -87,63 +129,14 @@ const Works = () => {
             </div>
           </div>
           <div
-            style={{ backgroundImage: `url(${code})` }}
             className='shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div'
           >
             {/* Hover Effects */}
-            <div className='opacity-0 group-hover:opacity-100 flex justify-center items-center flex-col'>
+            <div className='opacity-60 group-hover:opacity-100 flex justify-center items-center flex-col'>
               <span className=' text-lg font-bold text-white tracking-wider'>
-                CBT Application
+                E-Commerce
               </span>
-              <p className='text-center'>A CBT web application built with React and Mongodb</p>
-              <div className='pt-8 text-center'>
-                <a href='/'>
-                  <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg'>
-                    Demo
-                  </button>
-                </a>
-                <a href='/'>
-                  <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg'>
-                    Code
-                  </button>
-                </a>
-              </div>
-            </div>
-          </div>
-          <div
-            style={{ backgroundImage: `url(${code})` }}
-            className='shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div'
-          >
-            {/* Hover Effects */}
-            <div className='opacity-0 group-hover:opacity-100 flex justify-center items-center flex-col'>
-              <span className=' text-lg font-bold text-white tracking-wider'>
-                CBT Application
-              </span>
-              <p className='text-center'>A CBT web application built with React and Mongodb</p>
-              <div className='pt-8 text-center'>
-                <a href='/'>
-                  <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg'>
-                    Demo
-                  </button>
-                </a>
-                <a href='/'>
-                  <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg'>
-                    Code
-                  </button>
-                </a>
-              </div>
-            </div>
-          </div>
-          <div
-            style={{ backgroundImage: `url(${code})` }}
-            className='shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div'
-          >
-            {/* Hover Effects */}
-            <div className='opacity-0 group-hover:opacity-100 flex justify-center items-center flex-col'>
-              <span className=' text-lg font-bold text-white tracking-wider'>
-                CBT Application
-              </span>
-              <p className='text-center'>A CBT web application built with React and Mongodb</p>
+              <p className='text-center'>An E-Commerce Application where users can buy products</p>
               <div className='pt-8 text-center'>
                 <a href='/'>
                   <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg'>
